@@ -1,0 +1,15 @@
+scalar DateTime
+
+type User {
+  name: String!
+  password: String!
+}
+
+type Query {
+  users: [User!]!
+  user(name: String!): User
+}
+
+type Mutation {
+  addUser(name: String!, password: String!): User!
+}
