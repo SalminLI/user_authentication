@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, useNavigate } from "react-router-dom";
 import { Form, Button3 } from './AuthForms';
 
-function MyContent() {
+function Contents() {
   const params = useParams();
   const navigate = useNavigate();
 
@@ -13,7 +13,7 @@ function MyContent() {
   return (
     <Form>
       <div>
-        <h3>User content.</h3>
+        <h3>User contents.</h3>
         <br/>
         <Button3 onClick={handleReturnClick} >Return</Button3>
       </div>
@@ -21,4 +21,4 @@ function MyContent() {
   )
 }
 
-export default MyContent;
+export default Contents;

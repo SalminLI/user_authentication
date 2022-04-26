@@ -145,7 +145,7 @@ function LoginUsers() {
       });
     } else {
       navigate({
-        pathname: '/content/true/' + name + '/' + pass,
+        pathname: '/contents/true/' + name + '/' + pass,
       });
     }
   }
